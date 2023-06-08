@@ -1,0 +1,13 @@
+.crazy-bot-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+
+  font-size: 0.9rem;
+  background-color: brown;
+  color: white;
+  margin-right: 5px;
+}
