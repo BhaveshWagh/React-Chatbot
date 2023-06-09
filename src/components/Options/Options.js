@@ -7,7 +7,7 @@ const Options = (props) => {
   const options = [
     {
       text: "JavaScript",
-      handler: handleJavaScriptQuiz,
+      handler: props.actionProvider.handleJavascriptQuiz,
       id: 1,
     },
     {

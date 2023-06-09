@@ -28,14 +28,14 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
 
   // addMessageToState = (message)=>{ 
   //   this.setState((prev) => ({
-  //     ...prev,
+  //     ...prev,Angel
   //     messages: [...prev.messages, botMessage],
   //   }));
   // };}
 
 
   const handleJavaScriptQuiz = (props) => {
-    props.actionProvider.handleJavaScriptQuiz();
+    // props.actionProvider.handleJavaScriptQuiz();
     const botMessage = createChatBotMessage(
       "Fantastic. Here is your quiz. Good luck!",
       {
@@ -57,6 +57,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
           actions: {
             handleHello,
             handleTodos,
+            handleJavaScriptQuiz,
           },
         });
       })}

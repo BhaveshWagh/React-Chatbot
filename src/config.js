@@ -5,9 +5,12 @@ import Options from "./components/Options/Options";
 import Quiz from "./components/Quiz/Quiz";
 const config = {
   initialMessages: [
-    createChatBotMessage(`Hello, What do you want to learn`,{
-      widget:"options"
-    }),
+    createChatBotMessage(`Hello, If U want show your todo's, type show my todos`,{
+      widget:"todo"
+    }),    
+    // createChatBotMessage(`Hello, What do you want to learn`,{
+    //   widget:"options"
+    // }),
   ],
   botName: "Learning Bot",
  widgets:[

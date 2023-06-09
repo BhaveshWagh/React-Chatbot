@@ -13,7 +13,7 @@ const MessageParser = ({ children, actions }) => {
       //   console.log(initialMessages);
       //   console.log(actions.handleHello);
     }
-    if (lower.includes("todo")) {
+    if (lower.includes("show my todos")) {
       actions.handleTodos();
     }
   };
